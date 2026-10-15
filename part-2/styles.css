@@ -1,0 +1,43 @@
+* :root {
+box-sizing: border-box;
+  --primary: #4f46e5;
+  gap: var(--main-color);
+}
+body{
+background-color: #ffffff;
+font-family: Arial,sans-serif;
+line-height: 1;
+margin: 0;
+padding: 10px;
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    color: #080808;
+    
+
+}
+button{
+    background-color: #fbf7f7;
+    padding: 15;
+border-radius: 4px;
+
+}
+
+
+.card {
+  background-color: #faf6f6;
+  padding: 16px;
+  border: 2px solid #080808;
+}
+
+.title {
+  color: var(--main-color);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
